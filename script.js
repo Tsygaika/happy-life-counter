@@ -47,7 +47,7 @@ class CountdownTimer {
     const elHours2 = document.querySelector('.timer-2 .timer__hours');
     const elMinutes2 = document.querySelector('.timer-2 .timer__minutes');
     const elSeconds2 = document.querySelector('.timer-2 .timer__seconds');
-    const deadline2 = new Date(2024, 11, 30);
+    const deadline2 = new Date(2024, 11, 30,18,0,0);
     new CountdownTimer(deadline2, (timer) => {
       elDays2.textContent = timer.days;
       elHours2.textContent = timer.hours;
