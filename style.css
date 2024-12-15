@@ -75,11 +75,21 @@ body {
 .timer__result {
     text-align: center;
     padding: 10px;
-    color: #9c27b0;
+    color: #c91700;
     font-weight: bold;
 }
 
 hr {
     border-color: #fafafa;
     border-style: solid;
+}
+
+
+.final_text { 
+    font-size: calc(1rem + 1vw);
+    text-align: center;
+}
+
+.final_video { 
+    height: calc(3rem + 1vw);
 }
